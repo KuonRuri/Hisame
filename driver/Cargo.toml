@@ -1,0 +1,11 @@
+[package]
+name = "hisame-driver"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[[bin]]
+name = "hisame"
+path = "src/main.rs"
+
+[dependencies]

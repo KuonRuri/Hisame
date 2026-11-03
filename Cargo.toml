@@ -1,0 +1,9 @@
+[workspace]
+members = ["driver", "harness"]
+default-members = ["driver"]
+resolver = "2"
+
+[profile.release]
+panic = "abort"
+opt-level = 2
+debug = true
